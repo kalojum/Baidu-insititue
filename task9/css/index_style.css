@@ -1,0 +1,818 @@
+#top {
+	width: 100%;
+	height: 55px;
+	position: relative;
+	background-color: #2189C0;
+}
+
+.logo, #search-box {
+	position: absolute;
+	top: 50%;
+}
+
+.logo {
+	margin-top: -18px;
+	left: 50px;
+}
+
+#search-box, #search {
+	display: inline-block;
+	right: 200px;	
+	height: 28px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+#search-box {
+	width: 300px;
+	margin-top: -14px;
+	-webkit-transition: width .30s ease;
+    -moz-transition: width .30s ease;
+    -ms-transition: width .30s ease;
+    -o-transition: width .30s ease;
+    transition: width .30s ease;
+}
+
+#search {
+	width: 400px;
+	padding-left: 50px;
+}
+
+.find {
+	position: absolute;
+	left: 15px;
+	top: 6px;
+}
+
+#search-box:hover {
+	width: 400px;
+}
+
+#login {
+	position: absolute;
+	right: 80px;
+	height: 55px;
+	line-height: 55px;
+	width: 100px;
+	color: #fff;
+	cursor: pointer;
+}
+
+#login span,#login img {
+	vertical-align: middle;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+	background-color: #2B2E3D;
+}
+
+#top, .container {
+	min-width: 1080px;
+}
+
+#aside {
+	float: left;
+	width: 250px;
+	background-color: #2B2E3D;
+	color: #6E8096;
+}
+
+#personal {
+	margin-left: 30px;
+	padding: 35px 15px;
+
+}
+
+.head-portrait, .team {
+	vertical-align: middle;	
+}
+
+.team {
+	padding-left: 10px;
+	color: #fff;
+}
+
+.attention {
+	width: 80%;
+	margin-left: 20px;
+}
+
+.attention li {
+	float: left;
+	width: 48%;
+	text-align: center;
+}
+
+.attention span {
+	display: block;
+}
+
+.like {
+	border-right: 1px solid #394758;
+}
+
+#list {
+	margin-top: 45px;
+}
+
+#list li{
+	position: relative;
+	display: block;
+	line-height: 50px;
+}
+
+#list img, #list span {
+	position: relative;
+	left: 40px;
+	cursor: pointer;
+}
+
+#list img {
+	top: 3px;
+	left: 40px;
+}
+
+#list span {
+	display: inline-block;
+	padding-left: 2px;
+}
+
+.sub-person {
+	padding-left: 30px;
+}
+
+.sub-person li, .sub-person a{
+	line-height: 30px !important;
+}
+
+.list1 {
+	background-color: #373D4D;
+}
+
+.tri-person {
+	padding-left: 20px;
+}
+
+.white {
+	color: #fff;
+}
+
+#right {
+	margin-left: 250px;
+	width: auto;
+	background-color: #EEEEEE;
+	color: #AEAEAE;
+	min-width: 900px;
+	height: 1500px;
+}
+
+.part1 {
+	padding-left: 25px;
+	height: 30px;
+	background-color: #fff;
+}
+
+.part1 a {
+	padding: 6px;
+	line-height: 30px;
+	color: #949292;
+}
+
+.select{
+	color: #398AC1 !important;
+}
+
+#content {
+	width: 88%;
+	margin: 0 auto;
+}
+
+
+.part2 {
+	height: 95px;
+	margin-top: 20px;
+	position: relative;
+	background-color: #fff;
+	box-shadow: 0 0 1px;
+}
+
+.txt {
+	display: inline-block;
+	padding: 0 10px;
+	/*padding: 0 20px;*/
+}
+
+select, .today {
+	height: 26px;
+	border: 1px solid #999;
+	color: #000;
+	cursor: pointer;
+}
+
+.select-box select {
+	padding: 2px 20px 2px 5px;
+}
+
+.select-box {
+	display: inline-block;
+}
+
+.select-arrow {
+	position: relative;
+	right: 22px;
+}
+
+
+.one, .two, .three, .four {
+	display: inline-block;
+	vertical-align: top;
+	border: none;
+}
+
+.one {
+	padding: 20px 0 0 20px;
+	width: 17%;
+	height: 100px;
+}
+
+
+.two {
+	position: relative;
+	padding-top: 20px;
+	width: 23%;
+	display: inline-block;
+	
+}
+
+.seller, .num, .projects {
+	margin-top: 5px;
+}
+
+.buyer select, .seller select {
+	width: 120px;
+}
+
+.change {
+	display: inline-block;
+	position: absolute;
+	left: 170px;
+	top: 22px;
+}
+
+.three {
+	padding-top: 20px;
+	width: 50%;
+}
+
+.three input {
+	border: 1px solid #999;
+	height: 25px;
+	text-indent: 15px;
+}
+
+.three-left, .three-right {
+	display: inline-block;
+}
+
+.three-right {
+	padding-left: 5px;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #000;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #000;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+    color: #000;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #000;
+} 
+
+input:-ms-input-placeholder:-ms-input-placeholder {
+    color: #000;
+}
+
+input::-webkit-input-placeholder::-webkit-input-placeholder {
+    color: #000;
+}
+
+.num select{
+	width: 75px;
+}
+
+.consume select {
+	width: 100px;
+}
+
+.projects {
+	margin-left: -30px;
+}
+
+.projects select {
+	width: 160px;
+}
+
+.btn {
+	background-color: #2189C0;
+	color: #fff;
+	padding: 5px 12px;
+	border-radius: 3px;
+}
+
+.p2 {
+	position: absolute;
+	right: 8%;
+	top: 40%;
+}
+.part3 {
+	position: relative;
+	height: 71px;
+	overflow: hidden;
+	margin-top: 15px;
+}
+
+.part3 .box, .part3 .shift, .his {
+	display: block;
+	float: left;
+	height: 65px;
+	vertical-align: top;
+	background-color: #fff;
+	border: 1px solid #CECECE;
+	cursor: pointer;
+}
+
+.part3 .shift {
+	height: 69px;
+	width: 3%;
+}
+
+.ar-left {
+	width: 16px;
+	padding-top: 21px;
+	padding-left: 25%;
+}
+
+.part3 .box {
+	float: left;
+	border-top: 5px solid transparent;
+	margin-left: .5%;
+	width: 12.6%;
+}
+
+.part3 .box{
+	text-align: center;
+}
+
+.time{
+	position: relative;
+	top: 10px;
+}
+
+.part3 .price1, .part3 .box:hover {
+	border-top-color: #5895CF;
+}
+
+.price {
+	padding-top: 12px;
+	font-size: 21px;
+	color: #EE6501;
+
+}
+
+.box img {
+	position: relative;
+	left: 8px;
+	top: 4px;
+}
+
+.right {
+	vertical-align: top;
+	margin-left: .5%;
+}
+
+.his {
+	position: absolute;
+	right: 0;
+	background-color: #fff;
+	border: 1px solid #CECECE;
+	height: 69px;
+	width: 12.5%;
+}
+
+.his img {
+	padding: 0 1% 0 8%;
+	vertical-align: middle;
+}
+
+.his span{
+	line-height: 71px;
+	vertical-align: middle;
+}
+
+.part4 {
+	position: relative;
+	margin-top: 20px;
+	color: #000;
+	overflow: hidden;
+}
+
+.part4 p {
+	margin-bottom: 5px;
+} 
+
+.block {
+	position: relative;
+	display: inline-block;
+	float: left;
+	height: 80px;
+	width: 22%;
+	background-color: #fff;
+	border: 1px solid #CECECE;
+	border-left: 5px solid;
+}
+
+.gren {
+	border-left-color: #43B29F;
+}
+.blu {
+	border-left-color: #398AC1;
+}
+
+.rd {
+	border-left-color: #CF4B36;
+}
+
+.yelow {
+	border-left-color: #E1CD46;
+	position: absolute;
+	right: 0;
+}
+
+.gap {
+	margin-left: 3.3%;
+}
+
+.block .number {	
+	display: block;
+	padding: 9% 8% 0;
+	display: block;
+}
+
+.block .deal {
+	display: block;
+	padding: 3% 8%;
+	color: #999;
+}
+
+.block .inner {
+	position: absolute;
+	width: 33%;
+	height: 74%;
+	right: 10%;
+	top: 13%;
+}
+
+.agren {
+	background-color: #43B29F;
+}
+
+.ablu {
+	background-color: #398AC1;
+}
+.ard {
+	background-color: #CF4B36;
+}
+.ayelow {
+	background-color: #E1CD46;
+}
+
+.part5, .part6 {
+	overflow: hidden;
+}
+
+.part2, .part3, .part4, .part5,.part6 {
+	min-width: 800px;
+}
+
+.out {
+	height: 350px;
+	border: 1px solid #CECECE;
+	float: left;
+	border-radius: 10px;
+	margin-top: 20px;
+	background-color: #fff;
+}
+
+.tab {
+	width: 60%;
+}
+
+.title {
+	width: 100%;
+	height: 40px;
+	border-top-right-radius: 10px; 
+	border-top-left-radius: 10px;
+	background-color: #F4F6F7;
+}
+
+.title h3 {
+	font-weight: normal;
+	line-height: 40px;
+	padding-left: 30px;
+} 
+
+.firstgroup {
+	margin-left: 1%;
+	width: 38.3%;
+}
+
+.in {
+	width: 92%;
+	margin: 0 auto;
+	margin-top: 10px;
+	color: #000;
+}
+
+.in li {
+	display: inline-block;
+	width: 17%;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	background-color: #EEEEF0;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.choose {
+	border: 1px solid #CECECE;
+	border-bottom: 1px solid #fff;
+	background-color: #fff !important;
+}
+
+.in .tb {
+	width: 100%;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #CECECE;
+	margin-top: -1px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px
+}
+
+.tbody {
+	width: 85%;
+	margin: 32px auto;
+}
+
+.tbody td {
+	border: 1px solid #CECECE;
+}
+
+.agreement, .detail-bottom {
+	width: 78%;
+	margin: 15px auto 0;
+}
+
+.agreement {
+	height: 220px;
+	border-bottom: 1px solid #CECECE	
+}
+
+.agreement span {
+	display: block;
+	padding: 5px;
+}
+
+.bla{
+	display: block;
+	color: #000;
+}
+
+.rform, .detail {
+	border-bottom: 1px solid #CECECE;
+}
+
+
+.detail-left {
+	display: inline-block;
+	width: 35%;
+	border-right: 1px solid #CECECE;
+}
+
+.detail-right {
+	display: inline-block;
+}
+
+.detail-bottom {
+	position: relative;
+}
+
+.p5 {
+	position: absolute;
+	right: 0;
+	top: -10px;
+}
+
+.calender {
+	width: 40%;
+}
+
+.ranking-list {
+	margin-left: 1%;
+	width: 58.5%;
+}
+
+.calender-in {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.calender-select {
+	margin-top: 12px;
+}
+
+.calender-select select {
+	padding-left: 5px;
+}
+
+.calender-select .year, .calender-select .month, .date {
+	position: relative;
+	display: inline-block;
+	
+}
+
+.calender-select .year {
+	width: 20%;
+}
+
+.year select, .month select, .date select{
+	width: 100%;
+	padding-left: 8%;
+}
+
+.trinver {
+	position: absolute;
+	right: 8%;
+	top: 7px;
+	font-size: 8px;
+}
+
+.calender-select .month{
+	width: 26%;
+}
+
+.calender-select .date {
+	width: 24%;
+}
+.calender-select .today {
+	padding: 2px 4%;
+}
+
+.calender-week, .calender-head{
+	width: 98%;
+	margin: 12px auto;
+	color: #000;
+}
+
+.calender-head {
+	width: 98%;
+}
+
+.calender-head {
+	line-height: 35px;
+	border-top: 1px solid #398AC1;
+	border-bottom: 1px solid #CECECE;
+}
+
+
+.calender td{
+	width: 14%;
+}
+
+.calender-week span {
+	height: 21px;
+	line-height: 21px;
+	display: block;
+	font-size: 11px;
+}
+
+
+.festival, .weekend {
+	color: #D45A5D;
+	font-weight: bold;
+}
+
+.td-out {
+	border: 1px solid #F6CE4A;
+}
+
+.matirial td:hover, .tr-hover:hover  {
+	cursor: pointer;
+	background-color: #F4F5F7;
+}
+
+
+.table {
+	width: 82%;
+	margin: 18px auto;
+	color: #000;
+}
+
+.table table {
+	width: 100%;
+	text-align: center;
+}
+
+.table td{
+	line-height: 24px;
+	border: 1px solid #CECECE;
+	font-size: 11px;
+}
+
+
+.column1 {
+	width: 15%;
+}
+
+.column2 {
+	width: 18%;
+}
+
+.column-box {
+	position: relative;
+	display: inline-block;
+	width: 60%;
+	height: 4px;
+	margin-left: 20px;
+}
+
+.index, .over {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: inline-block;
+	width: 100%;
+	height: 4px;
+	vertical-align: middle;
+}
+
+.index {
+	background-color: #DCDCDC;
+}
+
+.row1 {
+	width: 85%;
+	background-color: #EC6F53;
+}
+
+.row2 {
+	width: 80%;
+	background-color: #EF8150;
+}
+
+.row3 {
+	width: 75%;
+	background-color: #F19E4E;
+}
+
+.row4,.row5,.row6,.row7,.row8,.row9,.row10 {
+	background-color: #7FCAF0;
+}
+
+.row4 {
+	width: 70%; 
+}
+
+.row5 {
+	width: 65%;
+}
+
+.row6 {
+	width: 60%;
+}
+
+.row7 {
+	width: 55%;
+}
+
+.row8 {
+	width: 50%;
+}
+
+.row9 {
+	width: 45%;
+}
+
+.row10 {
+	width: 40%;
+}
